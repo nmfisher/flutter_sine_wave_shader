@@ -53,7 +53,7 @@ class _SineWaveState extends State<SineWave>
   @override
   Widget build(BuildContext context) {
     return ShaderBuilder(
-      assetKey: 'packages/sine_wave_shader/assets/shaders/sine.frag',
+      assetKey: 'packages/flutter_sine_wave_shader/assets/shaders/sine.frag',
       (context, shader, child) => CustomPaint(
         // size: MediaQuery.of(context).size,
         foregroundPainter: ShaderPainter(
